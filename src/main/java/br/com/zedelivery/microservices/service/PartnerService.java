@@ -1,6 +1,7 @@
 package br.com.zedelivery.microservices.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.transaction.Transactional;
 
@@ -35,14 +36,26 @@ public class PartnerService {
 
 	@Transactional
 	public Partner insert(Partner partner) {
-		try {
-			if (!partner.containPoint(partner.getAddress()))
-				throw new BadRequestException(Messages.INVALID_ADRESS.getMsg());
-			return repository.save(partner);
 
+		if (!partner.containPoint(partner.getAddress()))
+			throw new BadRequestException(Messages.INVALID_ADRESS.getMsg());
+
+		if (documentAlreadyExists(partner.getDocument()))
+			throw new BadRequestException(Messages.INVALID_DOCUMENT.getMsg());
+
+		try {
+			return repository.save(partner);
 		} catch (Exception e) {
 			throw new InternalServerErrorException(Messages.PS_INSERT_FAILED.getMsg() + e.getLocalizedMessage());
 		}
+	}
+
+	public Boolean documentAlreadyExists(String document) {
+		Optional<Partner> partner = repository.findByDocument(document);
+
+		if (partner.isPresent())
+			return true;
+		return false;
 	}
 
 }
