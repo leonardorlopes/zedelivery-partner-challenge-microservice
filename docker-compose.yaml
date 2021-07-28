@@ -23,3 +23,12 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+      - APP_DB_NAME=partners
+      - APP_DB_USER=postgres
+      - APP_DB_PASS=admin
+
+    volumes:
+      - database:/var/lib/postgresql/data
+
+volumes:
+  database:
