@@ -1,0 +1,14 @@
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\exceptions\EntityNotExistsException.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\exceptions\APIExceptionHandler.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\model\repository\PartnerRepository.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\config\JacksonConfig.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\model\entity\Partner.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\model\entity\DataEntityTransfer.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\config\SwaggerConfig.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\controller\PartnerController.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\model\entity\DefaultEntity.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\exceptions\InternalServerErrorException.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\utils\InputValidation.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\exceptions\BadRequestException.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\PartnerApplication.java
+C:\Users\sosem\Desktop\Leo\Git\zedelivery-partner-challenge-microservice\src\main\java\br\com\zedelivery\microservices\service\PartnerService.java

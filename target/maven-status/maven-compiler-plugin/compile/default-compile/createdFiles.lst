@@ -1,0 +1,15 @@
+br\com\zedelivery\microservices\exceptions\EntityNotExistsException.class
+br\com\zedelivery\microservices\model\entity\DefaultEntity.class
+br\com\zedelivery\microservices\model\entity\Partner$PartnerBuilder.class
+br\com\zedelivery\microservices\config\SwaggerConfig.class
+br\com\zedelivery\microservices\model\repository\PartnerRepository.class
+br\com\zedelivery\microservices\config\JacksonConfig.class
+br\com\zedelivery\microservices\model\entity\DataEntityTransfer.class
+br\com\zedelivery\microservices\exceptions\APIExceptionHandler.class
+br\com\zedelivery\microservices\exceptions\InternalServerErrorException.class
+br\com\zedelivery\microservices\PartnerApplication.class
+br\com\zedelivery\microservices\model\entity\Partner.class
+br\com\zedelivery\microservices\controller\PartnerController.class
+br\com\zedelivery\microservices\utils\InputValidation.class
+br\com\zedelivery\microservices\exceptions\BadRequestException.class
+br\com\zedelivery\microservices\service\PartnerService.class
