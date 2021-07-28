@@ -22,6 +22,13 @@ Aqui estão os requisitos e insumos necessários para a execução da aplicaçã
 - PostgreSql 11 (https://www.enterprisedb.com/postgresql-tutorial-resources-training?cid=55)
 - IDE Eclipse para testes locais (https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
 
+## Solução Proposta 
+
+![image](https://user-images.githubusercontent.com/55765004/127360420-18e1da4e-d05b-4005-b24b-e9f7ef94dca4.png)
+![image](https://user-images.githubusercontent.com/55765004/127360325-599b19a3-90e2-41c5-bd5c-897590fd503a.png)
+![image](https://user-images.githubusercontent.com/55765004/127360362-6b2bcfca-09d7-4cf8-b43c-62122c2f0c76.png)
+
+
 ## Execução
 
 Para executar o projeto e suas dependências, foi utilizado o Docker, visando facilitar a execução da aplicação
